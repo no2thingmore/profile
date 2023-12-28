@@ -10,7 +10,7 @@ import Contact from './component/mainpage/contact';
 
 function App() {
     return (
-        <div className="App">
+        <>
             <Header />
 
             <Intro />
@@ -21,7 +21,7 @@ function App() {
             <Contact />
             
             <Footer />
-        </div>
+        </>
     );
 }
 

@@ -1,8 +1,7 @@
 .hd_container {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    padding-bottom: 40px;
+    padding: 30px 80px 40px;
     border-bottom: 5px solid black;
 }
 
