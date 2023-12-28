@@ -16,3 +16,49 @@
     width: 100%; /* 이미지가 컨테이너 너비에 맞게 조정 */
     height: auto; /* 이미지의 원래 비율을 유지 */
 }
+
+.it_intro_section {
+    position: relative;
+    display: flex;
+    right: 4vw;
+    bottom: 8vw;
+    width: 55vw;
+}
+
+.it_intro_section > img {
+    position: relative;
+    bottom: 40px;
+    margin-right: 30px;
+}
+
+.it_name-job_section {
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.it_name-job_section > div {
+    display: inline-block;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-shadow:
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px  1px 0 #000,
+        1px  1px 0 #000;
+    color: #ffffff;
+}
+
+.it_name {
+    margin-right: 12px;
+}
+
+.it_short_section {
+    position: relative;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.it_short_section > div {
+    font-size: 1.3vw;
+}
