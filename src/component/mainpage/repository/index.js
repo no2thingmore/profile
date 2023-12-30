@@ -3,7 +3,9 @@ import './repository.css';
 function Repository() {
     return (
         <>
-            저장소
+            <div className='rp_container'>
+                
+            </div>
         </>
     )
 }
