@@ -7,8 +7,6 @@ function Skill() {
                 <div className='sk_title'>
                     Skill
                 </div>
-                <div>
-                </div>
             </div>
         </>
     )
