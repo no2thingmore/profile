@@ -38,7 +38,6 @@ function Skill() {
                     # Skill
                 </div>
                 <div className='sk_info'>
-                    {/* 프론트 */}
                     <div className='sk_f_section'>
                         <div className='sk_title'>
                             PRONT
@@ -51,7 +50,6 @@ function Skill() {
                             <img src={Vue} alt='Vue'/>
                         </div>
                     </div>
-                    {/* 백 */}
                     <div>
                         <div className='sk_title'>
                             BACK
