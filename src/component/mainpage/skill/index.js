@@ -1,14 +1,19 @@
 import './skill.css'
 import React, { useEffect } from 'react';
-import HTML5 from './images/html5.svg';
-import CSS3 from './images/css3.svg';
-import JS from './images/js.svg';
+import HTML5Logo from './images/html5.svg';
+import CSS3Logo from './images/css3.svg';
+import JSLogo from './images/javascript.svg';
 import ReactLogo from './images/react.svg';
-import Vue from './images/vue.svg';
+import NodeJsLogo from './images/nodejs.svg';
+import SequelizeLogo from './images/sequelize.svg';
+import GithubLogo from './images/github.svg';
+import SourcetreeLogo from './images/sourcetree.svg';
 
 
 function Skill() {
 
+
+    // 이미지 배치
     useEffect(() => {
         const adjustImageWidth = () => {
             const images = document.querySelectorAll('.sk_content_info img');
@@ -17,14 +22,8 @@ function Skill() {
                 img.style.width = '5vw';
             });
         };
-    
-        // 최초 로드 시 함수 실행
         adjustImageWidth();
-    
-        // 윈도우 크기가 변경될 때마다 함수 실행
         window.addEventListener('resize', adjustImageWidth);
-    
-        // 클린업 함수
         return () => {
             window.removeEventListener('resize', adjustImageWidth);
         };
@@ -43,22 +42,29 @@ function Skill() {
                             PRONT
                         </div>
                         <div className='sk_content_info'>
-                            <img src={HTML5} alt='HTML5'/>
-                            <img src={CSS3} alt='CSS3'/>
-                            <img src={JS} alt='JS'/>
+                            <img src={HTML5Logo} alt='HTML5'/>
+                            <img src={CSS3Logo} alt='CSS3'/>
+                            <img src={JSLogo} alt='JS'/>
                             <img src={ReactLogo} alt='React'/>
-                            <img src={Vue} alt='Vue'/>
                         </div>
                     </div>
-                    <div>
+                    <div className='sk_b_section'>
                         <div className='sk_title'>
                             BACK
                         </div>
                         <div className='sk_content_info'>
-                            <img src={HTML5} alt='HTML5'/>
-                            <img src={CSS3} alt='CSS3'/>
-                            <img src={JS} alt='JS'/>
-                            <img src={ReactLogo} alt='React'/>
+                            <img src={NodeJsLogo} alt='NodeJs'/>
+                            <img src={SequelizeLogo} alt='Sequelize'/>
+                        </div>
+                    </div>
+                    <div className='sk_var_section'>
+                        <div className='sk_var_title'>
+                            버전관리
+                        </div>
+                        {/* 기술 들어갈 공간  */}
+                        <div className='sk_var_content_section'>
+                            <img src={GithubLogo} alt='github' />
+                            <img src={SourcetreeLogo} alt='sourcetree' />
                         </div>
                     </div>
                 </div>

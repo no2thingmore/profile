@@ -51,15 +51,6 @@ function Intro() {
                                 웹 개발자
                             </div>
                         </div>
-                        <div className='it_short_section'>
-                            {/* 짧은 소개 */}
-                            <div className='it_short_intro-1'>
-                                저를
-                            </div>
-                            <div className='it_short_intro-2'>
-                                소개합니다
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

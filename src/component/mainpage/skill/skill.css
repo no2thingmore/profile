@@ -1,16 +1,17 @@
 .sk_container {
     position: relative;
+    overflow: auto;
     bottom: 4vw;
     margin-bottom: 8vw;
     background-color: #BB91E3;
-    border-top: 3px solid #9B4DE3;
-    border-bottom: 3px solid #9B4DE3;
+    border-top: 0.2vw solid #9B4DE3;
+    border-bottom: 0.2vw solid #9B4DE3;
 }
 
 .sk_skill_section {
     display: inline-block;
     margin-top: 2vw;
-    margin-left: 15vw;
+    margin-left: 6vw;
     margin-bottom: 1vw;
     padding: 0.2vw 2vw;
     border-radius: 5px;
@@ -26,11 +27,15 @@
 
 .sk_info {
     padding-bottom: 3vw;
-    margin-left: 22vw;
+    margin-left: 16vw;
 }
 
 .sk_f_section {
     margin-bottom: 2vw;
+}
+
+.sk_f_section, .sk_b_section {
+    display: inline-block;
 }
 
 .sk_title {
@@ -39,7 +44,7 @@
     z-index: 10;
     width: auto;
     padding: 0.5vw 1vw;
-    border: 3px solid #9B4DE3;
+    border: 0.2vw solid #9B4DE3;
     border-radius: 5px;
     font-size: 2vw;
     font-weight: bold;
@@ -49,23 +54,72 @@
 .sk_content_info {
     display: flex;
     position: relative;
-    border: 3px solid #9B4DE3;
+    border: 0.2vw solid #9B4DE3;
     border-radius: 5px;
     bottom: 2vw;
     flex-wrap: wrap;
     gap: 10px;
     padding: 3vw 0 0 3vw;
     margin-left: 3vw;
-    width: 54vw;
+    width: 48vw;
     background-color: white;
 }
 
 .sk_content_info > img {
     flex: 0 0 20%;
-    max-width: 100px;
-    background-color: #777777;
+    max-width: 5vw;
+    max-height: 5vw;
     border-radius: 5px;
     margin-right: 3.1vw;
     margin-bottom: 2vw;
-    padding: 1vw;
+    padding: 0.5vw;
+    background-color: #bababa;
+}
+
+.sk_var_section {
+    position: absolute;
+    text-align: center;
+    top: 7vw;
+    right: 7vw;
+}
+
+.sk_var_title {
+    display: inline-block;
+    position: relative;
+    z-index: 10;
+    padding: 0.5vw 1vw;
+    border: 0.2vw solid #9B4DE3;
+    border-radius: 5px;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color: white;
+}
+
+.sk_var_content_section {
+    position: relative;
+    bottom: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 10vw;
+    max-width: 10vw;
+    background-color: white;
+    padding: 3.5vw 2vw 2vw;
+    border-radius: 5px;
+    border: 0.2vw solid #9B4DE3;
+}
+
+
+.sk_var_content_section > img {
+    background-color: #cacaca;
+    border-radius: 5px;
+    max-width: 5vw;
+    max-height: 5vw;
+    padding: 0.5vw;
+    margin-bottom: 2vw;
+}
+
+.sk_var_content_section > img:last-child {
+    margin-bottom: 0;
 }
