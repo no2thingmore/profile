@@ -3,9 +3,9 @@
     overflow: auto;
     bottom: 4vw;
     margin-bottom: 8vw;
-    background-color: #BB91E3;
-    border-top: 0.2vw solid #9B4DE3;
-    border-bottom: 0.2vw solid #9B4DE3;
+    background-color: #fffcc9;
+    border-top: 0.2vw solid black;
+    border-bottom: 0.2vw solid black;
 }
 
 .sk_skill_section {
@@ -44,7 +44,7 @@
     z-index: 10;
     width: auto;
     padding: 0.5vw 1vw;
-    border: 0.2vw solid #9B4DE3;
+    border: 0.2vw solid black;
     border-radius: 5px;
     font-size: 2vw;
     font-weight: bold;
@@ -54,7 +54,7 @@
 .sk_content_info {
     display: flex;
     position: relative;
-    border: 0.2vw solid #9B4DE3;
+    border: 0.2vw solid black;
     border-radius: 5px;
     bottom: 2vw;
     flex-wrap: wrap;
@@ -88,7 +88,7 @@
     position: relative;
     z-index: 10;
     padding: 0.5vw 1vw;
-    border: 0.2vw solid #9B4DE3;
+    border: 0.2vw solid black;
     border-radius: 5px;
     font-size: 2vw;
     font-weight: bold;
@@ -107,7 +107,7 @@
     background-color: white;
     padding: 3.5vw 2vw 2vw;
     border-radius: 5px;
-    border: 0.2vw solid #9B4DE3;
+    border: 0.2vw solid black;
 }
 
 
