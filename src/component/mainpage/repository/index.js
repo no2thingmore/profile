@@ -31,14 +31,18 @@ function Repository() {
                             <div className='rp_links_section'>
                                 <div>
                                     <Link to='/'>
-                                        github list test one
+                                        준비중입니다.
                                     </Link>
                                 </div>
                                 <div>
-                                    리스트 2
+                                    <Link to='/'>
+                                        준비중입니다.
+                                    </Link>
                                 </div>
                                 <div>
-                                    리스트 3
+                                    <Link to='/'>
+                                        준비중입니다.
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -56,19 +60,23 @@ function Repository() {
                         {/* 내용 공간 */}
                         <div className='rp_list_section'>
                             <div className='rp_list_title_name'>
-                                개발 목록
+                                작성 목록
                             </div>
                             <div className='rp_links_section'>
                                 <div>
                                     <Link to='/'>
-                                        github list test one
+                                        준비중입니다.
                                     </Link>
                                 </div>
                                 <div>
-                                    리스트 2
+                                    <Link to='/'>
+                                        준비중입니다.
+                                    </Link>
                                 </div>
                                 <div>
-                                    리스트 3
+                                    <Link to='/'>
+                                        준비중입니다.
+                                    </Link>
                                 </div>
                             </div>
                         </div>
