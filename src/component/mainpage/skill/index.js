@@ -8,6 +8,7 @@ import NodeJsLogo from './images/nodejs.svg';
 import SequelizeLogo from './images/sequelize.svg';
 import GithubLogo from './images/github.svg';
 import SourcetreeLogo from './images/sourcetree.svg';
+import LinkIcon from './images/link.png';
 
 
 function Skill() {
@@ -34,12 +35,13 @@ function Skill() {
         <>
             <div className='sk_container'>
                 <div className='sk_skill_section'>
-                    # Skill
+                    <img src={LinkIcon} alt='Link'/>
+                    Skill
                 </div>
                 <div className='sk_info'>
                     <div className='sk_f_section'>
                         <div className='sk_title'>
-                            PRONT
+                            FRONT
                         </div>
                         <div className='sk_content_info'>
                             <img src={HTML5Logo} alt='HTML5'/>

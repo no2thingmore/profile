@@ -51,6 +51,11 @@ function Intro() {
                                 웹 개발자
                             </div>
                         </div>
+                        <div>
+                            나를 소개하는
+                            <br />
+                            두줄 입니다
+                        </div>
                     </div>
                 </div>
             </div>
